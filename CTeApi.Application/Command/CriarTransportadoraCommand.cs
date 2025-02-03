@@ -44,7 +44,6 @@ namespace CTe.Application.Command
 
             if (errors.Any())
             {
-                // Retorna o erro logo, sem criar o objeto se falhar.
                 throw new CommandValidationException(string.Join(", ", errors));
             }
 
@@ -55,7 +54,6 @@ namespace CTe.Application.Command
 
         private bool ValidarCnpj(string cnpj)
         {
-            // Validação simplificada de CNPJ (apenas verifica se é composto por 14 dígitos numéricos)
             return cnpj.Length == 14 && cnpj.All(char.IsDigit);
         }
     }

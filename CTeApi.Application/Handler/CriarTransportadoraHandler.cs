@@ -23,14 +23,13 @@ namespace CTe.Application.Handler
         public async Task<int> Handle(CriarTransportadoraCommand request, CancellationToken cancellationToken)
         {
             var endereco = new Endereco(request.Endereco.Rua, request.Endereco.Cidade, request.Endereco.Estado, request.Endereco.CEP);
-            var cnpj = request.Cnpj; // Aqui você pode validar o CNPJ, se necessário
+            var cnpj = request.Cnpj; 
 
             var transportadora = new Transportadora(request.Nome, cnpj, request.Endereco.Rua,
                 request.Endereco.Cidade,
                 request.Endereco.Estado,
                 request.Endereco.CEP);
 
-            // Salvar a Transportadora no banco de dados
             return await _transportadoraRepository.CriarAsync(transportadora);
         }
     }

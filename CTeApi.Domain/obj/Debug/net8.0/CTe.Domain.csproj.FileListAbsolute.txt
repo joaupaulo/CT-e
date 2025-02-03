@@ -9,3 +9,8 @@ C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTe.Domain.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\refint\CTe.Domain.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTe.Domain.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\ref\CTe.Domain.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\bin\Debug\net8.0\CTe.Shared.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\bin\Debug\net8.0\CTe.Shared.pdb
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTe.Domain.csproj.AssemblyReference.cache
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTe.Domain.sourcelink.json
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTe.Domain.csproj.Up2Date

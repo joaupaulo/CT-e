@@ -9,3 +9,4 @@ C:\Users\Paulo\source\repos\CTeApi\CTe.Shared\obj\Debug\net8.0\CTe.Shared.dll
 C:\Users\Paulo\source\repos\CTeApi\CTe.Shared\obj\Debug\net8.0\refint\CTe.Shared.dll
 C:\Users\Paulo\source\repos\CTeApi\CTe.Shared\obj\Debug\net8.0\CTe.Shared.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTe.Shared\obj\Debug\net8.0\ref\CTe.Shared.dll
+C:\Users\Paulo\source\repos\CTeApi\CTe.Shared\obj\Debug\net8.0\CTe.Shared.sourcelink.json

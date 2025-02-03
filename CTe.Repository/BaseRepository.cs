@@ -45,7 +45,7 @@ namespace CTe.Repository
             }
             catch (Exception ex) 
             {
-                throw new DatabaseAccessException($"Erro ao executar comando escalar SQL: {sql}", ex);
+                throw new DatabaseAccessException($"Erro ao executar comando SQL: {sql}", ex);
             }
         }
     }

@@ -40,8 +40,8 @@ namespace CTe.Application.Handler
             var motorista = await _mediator.Send(new ObterMotoristaPorIdQuery(request.MotoristaId));
             var aliquota = await _mediator.Send(new ObterIcmsAliquotaQuery(request.Origem.Estado, request.Destino.Estado));
 
-            var origem = new Endereco(request.Origem.Rua, request.Origem.Cidade, request.Origem.Estado, request.Origem.CEP);
-            var destino = new Endereco(request.Destino.Rua, request.Destino.Cidade, request.Destino.Estado, request.Destino.CEP);
+            var origem = new Endereco(request.Origem.Rua, request.Origem.Cidade, request.Origem.Estado, request.Origem.Cep);
+            var destino = new Endereco(request.Destino.Rua, request.Destino.Cidade, request.Destino.Estado, request.Destino.Cep);
           
             var carga = new Carga(request.Carga.Peso,
                 request.Carga.Volume,

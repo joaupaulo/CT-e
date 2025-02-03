@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CTe.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ac7953492f3e39770afe6b56fcdef021823f9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CTe.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CTe.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

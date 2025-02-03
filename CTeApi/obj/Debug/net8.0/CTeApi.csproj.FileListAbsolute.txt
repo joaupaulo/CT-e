@@ -24,22 +24,14 @@ C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\Npgsql.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Application.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Domain.dll
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Infrastructure.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Repository.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Shared.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Repository.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Application.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Domain.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Shared.pdb
-C:\Users\Paulo\source\repos\CTeApi\CTeApi\bin\Debug\net8.0\CTe.Infrastructure.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\scopedcss\bundle\CTeApi.styles.css
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\staticwebassets.development.json
@@ -58,3 +50,4 @@ C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\CTeApi.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\CTeApi.genruntimeconfig.cache
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\ref\CTeApi.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\CTeApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Paulo\source\repos\CTeApi\CTeApi\obj\Debug\net8.0\CTeApi.sourcelink.json

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>13802294-80ff-495b-adba-d0082f04f92c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CTe.Infrastructure\CTe.Infrastructure.csproj" />
+    <ProjectReference Include="..\CTe.Repository\CTe.Repository.csproj" />
+    <ProjectReference Include="..\CTeApi.Application\CTe.Application.csproj" />
+    <ProjectReference Include="..\CTeApi.Domain\CTe.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

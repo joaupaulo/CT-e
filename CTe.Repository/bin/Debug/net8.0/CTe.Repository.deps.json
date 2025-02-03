@@ -76,6 +76,9 @@
         }
       },
       "CTe.Domain/1.0.0": {
+        "dependencies": {
+          "CTe.Shared": "1.0.0"
+        },
         "runtime": {
           "CTe.Domain.dll": {
             "assemblyVersion": "1.0.0",

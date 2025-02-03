@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CTe.Infrastructure\CTe.Infrastructure.csproj" />
     <ProjectReference Include="..\CTe.Repository\CTe.Repository.csproj" />
     <ProjectReference Include="..\CTeApi.Application\CTe.Application.csproj" />
     <ProjectReference Include="..\CTeApi.Domain\CTe.Domain.csproj" />

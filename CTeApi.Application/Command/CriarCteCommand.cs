@@ -13,8 +13,8 @@ namespace CTe.Application.Command
     {
         public int TransportadoraId { get; set; }
         public int MotoristaId { get; set; }
-        public EnderecoDto Origem { get; set; }
-        public EnderecoDto Destino { get; set; }
+        public Endereco Origem { get; set; }
+        public Endereco Destino { get; set; }
         public Carga Carga { get; set; }
 
 
@@ -39,13 +39,5 @@ namespace CTe.Application.Command
 
             return errors.Any() ? Result.Fail(errors) : Result.Ok();
         }
-    }
-
-    public class EnderecoDto
-    {
-        public string Rua { get; set; }
-        public string Cidade { get; set; }
-        public string Estado { get; set; }
-        public string CEP { get; set; }
     }
 }

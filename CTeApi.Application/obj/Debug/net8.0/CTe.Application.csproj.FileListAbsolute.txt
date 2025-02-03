@@ -17,3 +17,4 @@ C:\Users\Paulo\source\repos\CTeApi\CTeApi.Application\obj\Debug\net8.0\CTe.Appli
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Application\obj\Debug\net8.0\refint\CTe.Application.dll
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Application\obj\Debug\net8.0\CTe.Application.pdb
 C:\Users\Paulo\source\repos\CTeApi\CTeApi.Application\obj\Debug\net8.0\ref\CTe.Application.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Application\obj\Debug\net8.0\CTe.Application.sourcelink.json
