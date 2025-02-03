@@ -1,0 +1,11 @@
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\bin\Debug\net8.0\CTeApi.Domain.deps.json
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\bin\Debug\net8.0\CTeApi.Domain.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\bin\Debug\net8.0\CTeApi.Domain.pdb
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.AssemblyInfo.cs
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\refint\CTeApi.Domain.dll
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\CTeApi.Domain.pdb
+C:\Users\Paulo\source\repos\CTeApi\CTeApi.Domain\obj\Debug\net8.0\ref\CTeApi.Domain.dll

@@ -1,0 +1,6 @@
+@CTeApi_HostAddress = http://localhost:5197
+
+GET {{CTeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
