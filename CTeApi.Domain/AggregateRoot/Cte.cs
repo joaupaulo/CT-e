@@ -10,7 +10,7 @@ namespace CTe.Domain.AggregateRoot
 {
     public class Cte
     {
-        public int Id { get; private set; }
+        public int id { get; private set; }
         public Transportadora Transportadora { get; private set; }
         public Motorista Motorista { get; private set; }
         public Endereco Origem { get; private set; }

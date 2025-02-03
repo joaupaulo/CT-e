@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CTeApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25998878f2686aa3365030cea68c4996046a0305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a3413456c49b2d0747c29427af7a20872122acb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CTeApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CTeApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
