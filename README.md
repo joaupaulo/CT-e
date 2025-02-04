@@ -78,7 +78,9 @@ Este projeto é uma aplicação .NET que implementa diversas APIs para gerenciam
 - .NET 5
 - ASP.NET Core
 - MediatR
-- Entity Framework Core
+- Postgres
+- Docker
+- Docker compose
 - Moq (para testes unitários)
 
 ## Como Executar o Projeto
