@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CTe.Shared.Extensions;
-using CTe.Domain.ValueObjects;
+﻿using CTe.Shared.Extensions;
 using MediatR;
+using CTe.Domain.Domain;
 
 namespace CTe.Application.Command
 {

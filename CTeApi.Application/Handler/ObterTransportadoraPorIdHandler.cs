@@ -1,5 +1,5 @@
 ﻿using CTe.Application.Queries;
-using CTe.Domain.AggregateRoot;
+using CTe.Domain.Domain;
 using CTe.Repository.Interface;
 using CTe.Shared.Exceptions;
 using MediatR;

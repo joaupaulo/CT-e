@@ -1,6 +1,5 @@
 ﻿using CTe.Application.Command;
 using CTe.Application.Queries;
-using CTe.Domain.AggregateRoot;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

@@ -2,15 +2,11 @@
 using CTe.Repository.Interface;
 using CTe.Domain.Domain;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CTe.Application.Handler
 {
-    public class CriarIcmsHandler : IRequestHandler<CriarIcmsCommand, decimal>
+    public class CriarIcmsHandler : IRequestHandler<CriarIcmsCommand, int>
     {
         private readonly IIcmsRepository _icmsRepository;
 
@@ -19,7 +15,7 @@ namespace CTe.Application.Handler
             _icmsRepository = icmsRepository;
         }
 
-        public async Task<decimal> Handle(CriarIcmsCommand command, CancellationToken cancellationToken)
+        public async Task<int> Handle(CriarIcmsCommand command, CancellationToken cancellationToken)
         {
             var icmsAliquota = new IcmsAliquota(command.UfDestino,
                 command.UfOrigem,

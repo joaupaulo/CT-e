@@ -1,5 +1,4 @@
-﻿using CTe.Domain.AggregateRoot;
-using CTe.Domain.Dto;
+﻿using CTe.Domain.Dto;
 using MediatR;
 using System;
 using System.Collections.Generic;

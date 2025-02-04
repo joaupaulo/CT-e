@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CTe.Application.Command;
-using CTe.Repository;
+﻿using CTe.Application.Command;
 using CTe.Repository.Interface;
 using CTe.Application.Queries;
-using CTe.Domain.AggregateRoot;
-using CTe.Domain.ValueObjects;
 using MediatR;
 using CTe.Shared.Exceptions;
+using CTe.Domain.Domain;
 
 namespace CTe.Application.Handler
 {
@@ -54,5 +47,4 @@ namespace CTe.Application.Handler
             return await _cteRepository.CriarCteAsync(cte);
         }
     }
-
 }

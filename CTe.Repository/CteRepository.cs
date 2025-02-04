@@ -1,11 +1,11 @@
 ﻿using CTe.Repository.Interface;
-using CTe.Domain.AggregateRoot;
 using Dapper;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System.Data;
 using System.Text;
 using CTe.Domain.Dto;
+using CTe.Domain.Domain;
 
 namespace CTe.Repository
 {

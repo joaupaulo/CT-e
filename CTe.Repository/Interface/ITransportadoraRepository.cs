@@ -1,4 +1,4 @@
-﻿using CTe.Domain.AggregateRoot;
+﻿using CTe.Domain.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;

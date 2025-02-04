@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CTe.Application.Queries;
-using CTe.Domain.AggregateRoot;
+﻿using CTe.Application.Queries;
 using CTe.Domain.Dto;
 using CTe.Repository.Interface;
 using CTe.Shared.Exceptions;

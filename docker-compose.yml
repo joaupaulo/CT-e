@@ -1,37 +1,9 @@
-version: "3.8"
-
 services:
   postgres:
-    image: postgres:15
-    container_name: postgres_container
-    restart: always
+    image: postgres:latest
     environment:
-      POSTGRES_USER: testepratico
-      POSTGRES_PASSWORD: testepratico
-      POSTGRES_DB: db_cte
+      - POSTGRES_USER=testetecnico
+      - POSTGRES_PASSWORD=testetecnico
+      - POSTGRES_DB=db_cte
     ports:
       - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    networks:
-      - app_network
-
-  cte_api:
-    image: cteapi:dev 
-    container_name: cte_api_container
-    restart: always
-    depends_on:
-      - postgres
-    environment:
-      ConnectionStrings__PostgresConnection: "Host=postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}"
-    ports:
-      - "8081:8081"
-      - "8080:8080"
-    networks:
-      - app_network
-
-volumes:
-  postgres_data:
-
-networks:
-  app_network:

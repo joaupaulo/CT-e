@@ -1,14 +1,8 @@
 ﻿using CTe.Application.Command;
+using CTe.Domain.Domain;
 using CTe.Repository.Interface;
-using CTe.Shared.Exceptions;
-using CTe.Domain.AggregateRoot;
-using CTe.Domain.ValueObjects;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CTe.Application.Handler
 {

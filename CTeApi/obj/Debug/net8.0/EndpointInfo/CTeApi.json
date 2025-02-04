@@ -313,35 +313,13 @@
             "format": "int32"
           },
           "origem": {
-            "$ref": "#/components/schemas/EnderecoDto"
+            "$ref": "#/components/schemas/Endereco"
           },
           "destino": {
-            "$ref": "#/components/schemas/EnderecoDto"
+            "$ref": "#/components/schemas/Endereco"
           },
           "carga": {
             "$ref": "#/components/schemas/Carga"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CriarEnderecoDto": {
-        "type": "object",
-        "properties": {
-          "rua": {
-            "type": "string",
-            "nullable": true
-          },
-          "cidade": {
-            "type": "string",
-            "nullable": true
-          },
-          "estado": {
-            "type": "string",
-            "nullable": true
-          },
-          "cep": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -358,8 +336,8 @@
             "nullable": true
           },
           "aliquota": {
-            "type": "number",
-            "format": "double"
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -398,12 +376,12 @@
             "nullable": true
           },
           "endereco": {
-            "$ref": "#/components/schemas/CriarEnderecoDto"
+            "$ref": "#/components/schemas/Endereco"
           }
         },
         "additionalProperties": false
       },
-      "EnderecoDto": {
+      "Endereco": {
         "type": "object",
         "properties": {
           "rua": {

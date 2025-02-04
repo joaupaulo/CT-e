@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace CTe.Application.Command
 {
-    public class CriarIcmsCommand : IRequest<decimal>
+    public class CriarIcmsCommand : IRequest<int>
     {
         public string UfOrigem { get; set; }
         public string UfDestino { get; set; }
-        public decimal Aliquota { get; set; }
+        public int Aliquota { get; set; }
 
-        public CriarIcmsCommand(string ufOrigem, string ufDestino, decimal aliquota)
+        public CriarIcmsCommand(string ufOrigem, string ufDestino, int aliquota)
         {
             if (string.IsNullOrWhiteSpace(ufOrigem))
                 throw new CommandValidationException("UF de origem não pode ser vazia.");

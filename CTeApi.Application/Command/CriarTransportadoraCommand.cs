@@ -1,4 +1,5 @@
-﻿using CTe.Shared.Exceptions;
+﻿using CTe.Domain.Domain;
+using CTe.Shared.Exceptions;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,9 @@ namespace CTe.Application.Command
     {
         public string Nome { get; }
         public string Cnpj { get; }
-        public CriarEnderecoDto Endereco { get; }
+        public Endereco Endereco { get; }
 
-        public CriarTransportadoraCommand(string nome, string cnpj, CriarEnderecoDto endereco)
+        public CriarTransportadoraCommand(string nome, string cnpj, Endereco endereco)
         {
             var errors = new List<string>();
 
@@ -39,7 +40,7 @@ namespace CTe.Application.Command
             if (string.IsNullOrWhiteSpace(endereco.Estado))
                 errors.Add("O estado é obrigatório.");
 
-            if (string.IsNullOrWhiteSpace(endereco.CEP))
+            if (string.IsNullOrWhiteSpace(endereco.Cep))
                 errors.Add("O CEP é obrigatório.");
 
             if (errors.Any())
@@ -56,12 +57,5 @@ namespace CTe.Application.Command
         {
             return cnpj.Length == 14 && cnpj.All(char.IsDigit);
         }
-    }
-    public class CriarEnderecoDto
-    {
-        public string Rua { get; set; }
-        public string Cidade { get; set; }
-        public string Estado { get; set; }
-        public string CEP { get; set; }
     }
 }
