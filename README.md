@@ -75,13 +75,10 @@ Este projeto é uma aplicação .NET que implementa diversas APIs para gerenciam
 
 ## Tecnologias Utilizadas
 
-- .NET 5
-- ASP.NET Core
-- MediatR
+- .NET 8
 - Postgres
 - Docker
-- Docker compose
-- Moq (para testes unitários)
+
 
 ## Como Executar o Projeto
 
