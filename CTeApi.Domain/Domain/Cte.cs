@@ -6,6 +6,10 @@ namespace CTe.Domain.Domain
 {
     public class Cte
     {
+        private const decimal BASE_CALCULO = 1m;
+        private const decimal PERCENT_DIVISOR = 100m;
+
+
         public int Id { get; private set; }
         public Transportadora Transportadora { get; private set; }
         public Motorista Motorista { get; private set; }
@@ -27,8 +31,8 @@ namespace CTe.Domain.Domain
 
             decimal valorFrete = carga.CalcularValorFrete();
 
-            var baseCalculoICMS = valorFrete / (1 - aliquotaICMS / 100);
-            ValorICMS = new Dinheiro(baseCalculoICMS * (aliquotaICMS / 100));
+            var baseCalculoICMS = valorFrete / (BASE_CALCULO - aliquotaICMS / PERCENT_DIVISOR);
+            ValorICMS = new Dinheiro(baseCalculoICMS * (aliquotaICMS / PERCENT_DIVISOR));
 
             ValorFrete = new Dinheiro(valorFrete);
             ValotTotalCte = new Dinheiro(valorFrete + ValorICMS.Valor);

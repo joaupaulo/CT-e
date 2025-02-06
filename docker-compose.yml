@@ -1,14 +1,9 @@
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:15
     environment:
       - POSTGRES_USER=testetecnico
       - POSTGRES_PASSWORD=testetecnico
       - POSTGRES_DB=db_cte
     ports:
       - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-volumes:
-  postgres_data:
